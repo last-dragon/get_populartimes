@@ -1,0 +1,5 @@
+firebase_functions~=0.1.0
+pip install --upgrade git+https://github.com/m-wrzr/populartimes
+Flask
+flask-cors
+python-dotenv

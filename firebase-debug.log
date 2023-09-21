@@ -34,3 +34,120 @@ You're about to initialize a Firebase project in this directory:
 [debug] [2023-09-21T20:11:06.299Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
 [debug] [2023-09-21T20:11:07.828Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
 [debug] [2023-09-21T20:11:07.828Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-09-21T20:11:29.796Z] ----------------------------------------------------------------------
+[debug] [2023-09-21T20:11:29.798Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TH.Yang\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-21T20:11:29.799Z] CLI Version:   12.5.2
+[debug] [2023-09-21T20:11:29.799Z] Platform:      win32
+[debug] [2023-09-21T20:11:29.799Z] Node Version:  v16.15.1
+[debug] [2023-09-21T20:11:29.800Z] Time:          Fri Sep 22 2023 05:11:29 GMT+0900 (Japan Standard Time)
+[debug] [2023-09-21T20:11:29.800Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-21T20:11:29.808Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-21T20:11:29.808Z] > authorizing via signed-in user (edwardnelson2en@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\New folder\Google Map Project\get_populartimes
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-09-21T20:13:38.430Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-21T20:13:38.430Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"getpopulartimes","name":"6902"}
+[debug] [2023-09-21T20:13:40.458Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2023-09-21T20:13:40.459Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2023-09-21T20:13:45.414Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\TH.Yang\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\TH.Yang\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID getpopulartimes. Please try again with a unique project ID.
+[debug] [2023-09-21T20:15:13.024Z] ----------------------------------------------------------------------
+[debug] [2023-09-21T20:15:13.025Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TH.Yang\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-21T20:15:13.026Z] CLI Version:   12.5.2
+[debug] [2023-09-21T20:15:13.026Z] Platform:      win32
+[debug] [2023-09-21T20:15:13.026Z] Node Version:  v16.15.1
+[debug] [2023-09-21T20:15:13.027Z] Time:          Fri Sep 22 2023 05:15:13 GMT+0900 (Japan Standard Time)
+[debug] [2023-09-21T20:15:13.028Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-21T20:15:13.035Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-21T20:15:13.036Z] > authorizing via signed-in user (edwardnelson2en@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\New folder\Google Map Project\get_populartimes
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-21T20:15:19.303Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-09-21T20:15:20.950Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-09-21T20:15:20.950Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project getpopulartimes-43371 (getpopulartimes) 
+[info] 
+=== Functions Setup
+[debug] [2023-09-21T20:15:23.703Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-21T20:15:23.704Z] > authorizing via signed-in user (edwardnelson2en@gmail.com)
+[debug] [2023-09-21T20:15:23.704Z] [iam] checking project getpopulartimes-43371 for permissions ["firebase.projects.get"]
+[debug] [2023-09-21T20:15:23.704Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/getpopulartimes-43371:testIamPermissions [none]
+[debug] [2023-09-21T20:15:23.704Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/getpopulartimes-43371:testIamPermissions x-goog-quota-user=projects/getpopulartimes-43371
+[debug] [2023-09-21T20:15:23.704Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/getpopulartimes-43371:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-09-21T20:15:25.505Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/getpopulartimes-43371:testIamPermissions 200
+[debug] [2023-09-21T20:15:25.506Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/getpopulartimes-43371:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-09-21T20:15:25.507Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-09-21T20:15:25.507Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/getpopulartimes-43371
+[debug] [2023-09-21T20:15:25.508Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/runtimeconfig.googleapis.com [none]
+[debug] [2023-09-21T20:15:25.508Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/getpopulartimes-43371
+[debug] [2023-09-21T20:15:27.487Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com 200
+[debug] [2023-09-21T20:15:27.487Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2023-09-21T20:15:27.488Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2023-09-21T20:15:27.488Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/getpopulartimes-43371
+[debug] [2023-09-21T20:15:27.520Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/runtimeconfig.googleapis.com 200
+[debug] [2023-09-21T20:15:27.520Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2023-09-21T20:15:30.175Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2023-09-21T20:15:30.176Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2023-09-21T20:15:40.194Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-09-21T20:15:40.195Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/getpopulartimes-43371
+[debug] [2023-09-21T20:15:42.926Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com 200
+[debug] [2023-09-21T20:15:42.926Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/getpopulartimes-43371/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/requirements.txt 
+[info] +  Wrote functions/.gitignore 
+[info] +  Wrote functions/main.py 
+[debug] [2023-09-21T20:16:11.980Z] Running command with virtualenv: command="E:\New folder\Google Map Project\get_populartimes\functions\venv\Scripts\activate.bat", args=["","&&","pip3","install","--upgrade","pip"]
+[debug] [2023-09-21T20:16:20.164Z] Error: spawn "E:\New folder\Google Map Project\get_populartimes\functions\venv\Scripts\activate.bat" ENOENT
+    at notFoundError (C:\Users\TH.Yang\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:6:26)
+    at verifyENOENT (C:\Users\TH.Yang\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:40:16)
+    at ChildProcess.cp.emit (C:\Users\TH.Yang\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:27:25)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+[error] 
+[error] Error: An unexpected error has occurred.
